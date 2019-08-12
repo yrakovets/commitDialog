@@ -1,0 +1,16 @@
+<idea-plugin>
+    <id>commitDialog.commitDialog</id>
+    <name>Commit Message Test</name>
+    <vendor email="yrakovets@microfocus.com" url="http://www.microfocus.com">Micro Focus</vendor>
+
+    <description><![CDATA[
+    Some plugin description with much-much text
+    ]]></description>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <checkinHandlerFactory
+                implementation="com.microfocus.intellij.plugin.gitclient.commits.DmCheckinHandlerFactory" order="last"/>
+        <editChangelistSupport implementation="com.microfocus.intellij.plugin.gitclient.commits.DmCheckinHandler"/>
+    </extensions>
+
+</idea-plugin>
