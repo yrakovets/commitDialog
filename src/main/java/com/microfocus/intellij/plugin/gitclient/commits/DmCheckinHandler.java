@@ -24,6 +24,7 @@ public class DmCheckinHandler extends CheckinHandler implements EditChangelistSu
         DmCheckinHandler.panel = panel;
     }
 
+    //added new comment
     @Override
     public void installSearch(EditorTextField name, EditorTextField comment) {
 
