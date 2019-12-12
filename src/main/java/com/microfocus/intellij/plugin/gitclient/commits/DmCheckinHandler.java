@@ -19,6 +19,7 @@ public class DmCheckinHandler extends CheckinHandler implements EditChangelistSu
         return ReturnResult.COMMIT;
     }
 
+    //added some comment
     void setPanel(CheckinProjectPanel panel) {
         DmCheckinHandler.panel = panel;
     }
